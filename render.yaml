@@ -17,7 +17,7 @@ services:
         fromDatabase:
           name: renderwarzone
           property: connectionString
-      - key: 20bd758b1b72a9737c7565a680c51afb
+      - key: RAILS_MASTER_KEY
         sync: false
       - key: WEB_CONCURRENCY
         value: 2 # sensible default
