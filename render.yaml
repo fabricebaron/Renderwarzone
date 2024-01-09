@@ -6,7 +6,7 @@ databases:
 
 services:
   - type: web
-    name: warzonepc
+    name: renderwarzone
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
