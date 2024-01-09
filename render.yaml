@@ -1,7 +1,7 @@
 databases:
   - name: renderwarzone
     databaseName: renderwarzone
-    user: Fab
+    user: fabricebaron
     plan: free
 
 services:
