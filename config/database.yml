@@ -29,7 +29,7 @@ development:
   # To create additional roles in postgres see `$ createuser --help`.
   # When left blank, postgres will use the default role. This is
   # the same name as the operating system user running Rails.
-  #username: Warzone_Render
+  #username: 
 
   # The password associated with the postgres role (username).
   #password:
@@ -81,6 +81,6 @@ test:
 #
 production:
   <<: *default
-  database: Warzone_Render_production
-  username: Warzone_Render
-  password: <%= ENV['WARZONE_RENDER_DATABASE_PASSWORD'] %>
+  database: postgres
+  username: postgres
+  password: 0111
