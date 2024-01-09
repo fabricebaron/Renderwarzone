@@ -1,12 +1,12 @@
 databases:
-  - name: mysite
-    databaseName: mysite
-    user: mysite
+  - name: renderwarzone
+    databaseName: renderwarzone
+    user: Fab
     plan: free
 
 services:
   - type: web
-    name: mysite
+    name: renderwarzone
     runtime: ruby
     plan: free
     buildCommand: "./bin/render-build.sh"
